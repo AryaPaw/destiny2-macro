@@ -1,0 +1,9 @@
+KineticSlot := "1"			;	Special Weapon key
+HeavySlot := "3"			; 	Power Weapon key
+HeavySwing := "RButton"		; 	Heavy Swing Key
+LightSwing := "LButton"		;	Light Swing key
+BlockKey := "f"				; 	Block Key
+SuperKey := "c"				;	Super Key
+AirMove := "x"				;	Air Move Key
+Sprint := "Shift"			;	Sprint Key
+MeleeAbility := "f"			;	Powered Melee Key
