@@ -1,19 +1,31 @@
-Send("{" HeavySlot "}") ; Power weapon key
+Send("{" HeavySlot " down}")
+
+Sleep(25)
+
+Send("{" HeavySlot " up}")
 
 Sleep(500)
 
-Send("{" HeavySwing " down}") ; Heavy Swing Key
+Send("{RButton down}")
 
-Sleep(Timing2)
+Sleep(100)
 
-Send("{" HeavySwing " up}") ; Heavy Swing Key
+Send("{" HeavySwing " up}")
 
 Send("{Space}")
 
-Send("{" SuperKey "}") ; SuperKey Key
+Send("{" SuperKey "}")
 
 Sleep(100)
 
 Send("{Space}")
+
+Sleep(20)
+
+Send("{" KineticSlot " down}")
+
+Sleep(25)
+
+Send("{" KineticSlot " up}")
 
 Return
